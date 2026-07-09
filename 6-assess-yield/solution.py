@@ -12,8 +12,6 @@ def assess_yield(number_of_plants, average_weight):
     return total_kg, message
 
 
-# Вызываем функцию и распаковываем кортеж:
 total_weight, rating = assess_yield(50, 200)
 
-# Печатаем результат:
 print(total_weight, 'кг.', rating)
